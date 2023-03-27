@@ -1,0 +1,24 @@
+<view class="page">
+  <image class="page-background" src="../../images/swiper1.png"></image>
+  <view class="container">
+    <navigation-bar title="" titleLeft="114rpx"></navigation-bar>
+  </view>
+</view>
+<t-swiper
+  current="{{current}}"
+  autoplay="{{autoplay}}"
+  duration="{{duration}}"
+  interval="{{interval}}"
+  list="{{swiperList}}"
+  navigation="{{ { type: 'dots-bar' } }}"
+/>
+<t-notice-bar
+  visible="{{visible}}"
+  marquee="{{marquee2}}"
+  prefixIcon="sound"
+  class="t-notice-bar"
+  content="逃离塔科夫小程序正在开发中，敬请期待!!!经超出品"
+/>
+
+
+

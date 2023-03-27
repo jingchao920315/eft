@@ -1,0 +1,12 @@
+{
+  "component": true,
+  "usingComponents": {
+    "cloud-tip-modal": "/components/cloudTipModal/index",
+    "t-swiper": "tdesign-miniprogram/swiper/swiper",
+    "t-avatar": "tdesign-miniprogram/avatar/avatar",
+    "t-swiper-nav": "tdesign-miniprogram/swiper-nav/swiper-nav"
+  },
+  "navigationBarTextStyle": "white",
+  "navigationStyle": "custom"
+
+}
